@@ -1,0 +1,132 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+    grid-template-columns: 1fr 2fr 3fr;
+    position: sticky;
+    top: 0;
+    background: #0ED4A9;
+    color: #ffffff;
+    z-index: 1;
+    padding: 10px;
+    font-size: larger;
+}
+
+h4{
+    font-size: medium;
+}
+
+span{
+    color: #2264c798;
+
+}
+
+.search {
+    width: 400px;
+    height: auto;
+    padding: 20px;
+}
+
+input {
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    font-style: italic; 
+    padding-left: 10px;
+}
+.header-seach {
+    flex-grow: 1;
+}
+.header-seach .search{
+    margin: auto;
+}
+.header-seach .search .btn-search{
+    margin-left: 10px;
+    display: inline-block;
+    line-height: 30px;
+    padding: 0 10px;
+    background: transparent;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.header-right{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header-right .right-menu-wrap{
+    width: 100%;
+}
+
+.header-right .right-menu-wrap .menu{
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+}
+
+.header-right .right-menu-wrap .menu > li{
+    float: left;
+    margin:0;
+    padding: 0;
+    display: inline-block;
+}
+
+.header-right .right-menu-wrap .menu > li > a{
+    display: inline-block;
+    padding: 10px 20px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.header-right .right-menu-wrap .menu > li:hover > a{
+    background-color: #000000;
+}
+
+.header-right li.toggle-submenu{
+    position: relative;
+}
+.header-right li.toggle-submenu .submenu{
+    position: absolute;
+    display: none;
+    width: 100%;
+    top: 100%;
+    left: 0;
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    border: 1px solid #000000;
+}
+.header-right li.toggle-submenu:hover .submenu{
+    display: block;
+}
+.header-right li.toggle-submenu .submenu > li {
+    margin:0;
+    padding: 0;
+    display: block;
+}
+
+.header-right li.toggle-submenu .submenu > li > a{
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: rgba(0, 0, 0, 0.8);;
+    text-decoration: none;
+}
+
+.header-right li.toggle-submenu .submenu > li:not(:last-child){
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.header-right li.toggle-submenu .submenu > li > a:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.search {
+    top: 20px;
+}

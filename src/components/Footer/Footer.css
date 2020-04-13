@@ -1,0 +1,87 @@
+.footer-home {
+    background: #f4f4f4;
+  }
+  .footer-show {
+    display: flex;
+    position: relative;
+    padding: 30px 0;
+  }
+  .footer-show a {
+    text-decoration: none;
+    color: #ccc;
+  }
+  .footer-show-1 {
+    font-size: 13px !important;
+    width: 25%;
+    line-height: 30px;
+    padding-right: 30px;
+  }
+  .footer-show-1:first-child {
+    padding-left: 0;
+  }
+  .title-footer h4 {
+    margin-bottom: 15px;
+    font-size: 13px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  .pay-block {
+    text-align: center;
+    padding: 10px 0 20px 0;
+    border-top: 1px dashed #4c4b4b;
+  }
+  /* footer */
+  .footer-top {
+    border-bottom: 1px solid #ebebeb;
+    padding: 70px 0;
+    text-align: center;
+  }
+  .copyright-wrapper {
+    padding: 18px 10px;
+  }
+
+
+  .footer-menu {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .footer-menu .ft-logo{
+      width: 20%;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .footer-menu .ft-logo a{
+      display: inline-block;
+      color: unset;
+      max-width: 100%;
+  }
+  .footer-menu .ft-logo a img{
+      max-width: 150px;
+      height: auto;
+  }
+
+  .footer-menu .footer-content{
+      width: 80%;
+  }
+  
+  .footer-menu .footer-content .mainmenu li {
+    display: inline-block;
+    padding: 0 22px;
+  }
+  .footer-menu .footer-content .mainmenu li a {
+    color: #333;
+    font-size: 14px;
+    font-weight: 500;
+    transition: all 0.4s ease 0s;
+  }
+  .footer-menu .footer-content .mainmenu li a:hover {
+    color: #e59285;
+  }
+  .mainmenu {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
